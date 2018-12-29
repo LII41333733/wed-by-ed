@@ -1,0 +1,154 @@
+/* BODY */
+body {
+ font-family: 'Raleway', sans-serif;
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+ background-color: white;
+ padding: 0;
+ margin-bottom: 0;
+}
+
+#jumbotron-image {
+ width: 90%;
+ height: auto;
+ max-height: 315px;
+ max-width: 540px;
+}
+
+/* 540x315 */
+
+/* NAVBAR */
+.nav-item {
+ color: black;
+ text-transform: uppercase;
+ font-size: .9rem;
+ padding: 2px;
+}
+
+.navbar-nav {
+ text-align: center;
+}
+
+.nav-active {
+ font-weight: 700;
+}
+
+/* CONTENT BODY */
+.content-body {
+ height: auto;
+ width: 100%;
+}
+
+/* SLIDESHOW */
+
+.slideshow {
+ border: 1px solid rgb(200, 200, 200);
+}
+
+.slideshow-image {
+ width: 100%;
+}
+
+
+
+/* GALLERY */
+
+.imageDiv {
+ margin: 5px;
+}
+
+.wedding-invite {
+ width: 250px;
+ height: 300px;
+ display: block;
+ /* margin: 0;
+ padding: 0;
+ border: 0; */
+ cursor: pointer;
+ /* background-color: white; */
+ border-radius: 2px;
+
+}
+
+.imageDiv:hover .img-wrap {
+ background-color: black;
+ border-radius: 2px;
+}
+
+.wedding-invite {
+ opacity: 0.8;
+}
+
+/* MODAL */
+
+.modal-body {
+ padding: 0;
+}
+
+
+
+.modalImg {
+height: auto;
+width: 100%;
+max-width: 850px;
+max-height: 638px;
+
+}
+
+.modal-content {
+ width: 65%;
+}
+
+
+
+
+
+/***** ACCESSORIES *****/
+
+/* CONTAINER */
+
+.container {
+ padding-left: 17px;
+}
+
+/* HR */
+hr {
+ background: black;
+}
+
+/* ROW */
+.row {
+ margin: 0;
+ background: rgba(255, 255, 255, 0.2);
+}
+
+/* ARROWS */
+
+.fas {
+ font-size: 1.1rem;
+}
+
+.arrow-right {
+ position: absolute;
+ top: 50%;
+ right: 8%;
+}
+
+.arrow-left {
+ position: absolute;
+ top: 50%;
+ left: 8%;
+}
+
+a {
+ cursor: pointer;
+ color: black;
+}
+
+a:hover {
+ color: rgb(200, 200, 200);
+}

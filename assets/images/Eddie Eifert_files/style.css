@@ -1,0 +1,120 @@
+/* BODY */
+body {
+ font-family: 'Raleway', sans-serif;
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+/* JUMBOTRON */
+.jumbotron {
+ background-color: white;
+ padding: 0;
+ margin-bottom: 0;
+}
+
+#jumbotron-image {
+ width: 540px;
+ height: 315px;
+}
+
+
+/* NAVBAR */
+.nav-item {
+ color: black;
+ text-transform: uppercase;
+ font-size: .9rem;
+ padding: 2px;
+}
+
+.nav-active {
+ border-bottom: 2px solid black;
+}
+
+/* CONTENT BODY */
+.content-body {
+ height: auto;
+ width: 100%;
+}
+
+/* SLIDESHOW */
+
+.slideshow {
+ border: 1px solid rgb(200, 200, 200);
+}
+
+.slideshow-image {
+ width: 100%;
+}
+
+
+
+/* GALLERY */
+
+.imageDiv {
+ margin: 5px;
+}
+
+.wedding-invite {
+ width: 250px;
+ height: 300px;
+ display: block;
+ /* margin: 0;
+ padding: 0;
+ border: 0; */
+ cursor: pointer;
+ /* background-color: white; */
+ border-radius: 2px;
+
+}
+
+.imageDiv:hover .img-wrap {
+ background-color: black;
+ border-radius: 2px;
+}
+
+.wedding-invite {
+ opacity: 0.8;
+}
+
+/* MODAL */
+
+.modal-body {
+ padding: 0;
+}
+
+
+
+.modalImg {
+height: auto;
+width: 100%;
+min-width: 850px;
+min-height: 638px;
+
+}
+
+.modal-content {
+ width: 70%;
+}
+
+
+
+
+
+/***** ACCESSORIES *****/
+
+/* CONTAINER */
+
+.container {
+ padding-left: 17px;
+}
+
+/* HR */
+hr {
+ background: black;
+}
+
+/* ROW */
+.row {
+ margin: 0;
+ background: rgba(255, 255, 255, 0.2);
+}
