@@ -5,6 +5,7 @@
 }
 
 
+
 /* BODY */
 body {
  font-family: 'Raleway', sans-serif;
@@ -13,6 +14,8 @@ body {
 
 
 
+/* HEADER SETTINGS */
+
 h1 {
  font-family: Rockwell;
  background-color: black;
@@ -20,7 +23,7 @@ h1 {
  width: 100%;
  display: block;
  margin: 0 auto;
- }
+}
 
  h2 {
   font-family: 'Raleway'
@@ -34,12 +37,10 @@ h1 {
   font-size: 1.4rem;
  }
 
-/* CONTAINER */
-
-
 
 
 /* JUMBOTRON */
+
 .jumbotron {
  background-color: white;
  padding: 0;
@@ -54,7 +55,9 @@ h1 {
 }
 
 
+
 /* NAVBAR */
+
 .nav-item {
  color: black;
  text-transform: uppercase;
@@ -70,11 +73,16 @@ h1 {
  font-weight: 700;
 }
 
+
+
 /* CONTENT BODY */
+
 .content-body {
  height: auto;
  width: 100%;
 }
+
+
 
 /* SLIDESHOW */
 
@@ -91,7 +99,7 @@ h1 {
  height: auto;
  left: 18%;
  border-radius: 15px;
- margin-bottom: 200px;
+ margin-bottom: 100px;
 }
 
 #stage img {
