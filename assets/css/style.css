@@ -1,8 +1,42 @@
+@font-face {
+ font-family: 'Rockwell-Light';
+ src: url(./fonts/Rockwell/RockwellStd-Light.otf);
+ font-weight: 300;
+}
+
+
 /* BODY */
 body {
  font-family: 'Raleway', sans-serif;
  font-family: 'Montserrat', sans-serif;
 }
+
+
+
+h1 {
+ font-family: Rockwell;
+ background-color: black;
+ color: white;
+ width: 100%;
+ display: block;
+ margin: 0 auto;
+ }
+
+ h2 {
+  font-family: 'Raleway'
+ }
+
+ #email {
+  font-weight: 400;
+ }
+
+ h3 {
+  font-size: 1.4rem;
+ }
+
+/* CONTAINER */
+
+
 
 
 /* JUMBOTRON */
@@ -19,7 +53,6 @@ body {
  max-width: 540px;
 }
 
-/* 540x315 */
 
 /* NAVBAR */
 .nav-item {
@@ -45,13 +78,50 @@ body {
 
 /* SLIDESHOW */
 
-.slideshow {
- border: 1px solid rgb(200, 200, 200);
+
+#stage {
+ width: 80%;
+ height: auto;
+ border-radius: 15px;
+}
+
+#stage a {
+ position: absolute;
+ width: 80%;
+ height: auto;
+ left: 18%;
+ border-radius: 15px;
+ margin-bottom: 200px;
+}
+
+#stage img {
+border-radius: 5px;
+}
+
+
+#stage a:nth-of-type(1) {
+ animation-name: fader;
+ animation-delay: 3s;
+ animation-duration: 1s;
+ z-index: 20;
+}
+#stage a:nth-of-type(2) {
+ z-index: 10;
+}
+#stage a:nth-of-type(n+3) {
+ display: none;
+}
+
+@keyframes fader {
+ from { opacity: 1.0; }
+ to   { opacity: 0.0; }
 }
 
 .slideshow-image {
- width: 100%;
-}
+ height: auto;
+ width: 80%;
+ 
+} 
 
 
 
@@ -111,9 +181,7 @@ max-height: 638px;
 
 /* CONTAINER */
 
-.container {
- padding-left: 17px;
-}
+
 
 /* HR */
 hr {
@@ -127,6 +195,11 @@ hr {
 }
 
 /* ARROWS */
+
+.fa-inverse {
+ font-family: 'Rockwell';
+ padding-top: 4.5px;
+}
 
 .fas {
  font-size: 1.1rem;
@@ -151,4 +224,89 @@ a {
 
 a:hover {
  color: rgb(200, 200, 200);
+}
+
+
+
+
+/* CONTACT PAGE */
+
+.contact-head {
+ background: white;
+ color: black;
+ font-size: 1.6rem;
+ margin: 10px auto;
+}
+
+.contact-block {
+ min-width: 300px;
+ padding: 20px;
+ }
+ 
+ .mid-block {
+ border-left: 1px solid black;
+ border-right: 1px solid black;
+ }
+
+ .connect {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+ }
+
+ /* ABOUT PAGE */
+
+ .about-me, .gallery, .contact-me {
+  margin-bottom: 100px;
+ }
+
+ .about-me h2 {
+  font-family: "Montserrat";
+
+ }
+
+ .ring-invite {
+  font-size: 2rem;
+  font-family: 'Rockwell Std';
+  font-weight: 300;
+  font-style: normal;
+  margin: 80px 0;
+}
+
+.options {
+ font-size: 1.4rem;
+ font-family: "Montserrat";
+ letter-spacing: 1px;
+}
+
+.contact-header{ 
+ font-weight: 600;
+}
+
+.about-me p {
+ width: 50%;
+ margin: 0 auto;
+}
+
+.envelopesImg {
+ width: 50%;
+ height: auto;
+}
+
+.light-bold {
+ font-weight: 100;
+}
+
+.quality {
+ width: 50%;
+ height: auto;
+margin-top: 10px;
+}
+
+.print-para {
+ width: 100% !important;
+ padding-right: 150px;
+}
+
+.col-6 {
+ padding: 0;
 }
