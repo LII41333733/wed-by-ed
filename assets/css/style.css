@@ -318,3 +318,17 @@ margin-top: 10px;
 .col-6 {
  padding: 0;
 }
+
+.brand{
+  height: 100px;
+  width: auto;
+}
+
+.footerMargin {
+  margin-top: 150px;
+  width: 80%;
+}
+
+.footer {
+  margin-bottom: 10px;
+}
